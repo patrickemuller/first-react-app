@@ -1,10 +1,13 @@
 import React from 'react'
+import FilterProvider from './state/filter/Provider'
 
 function App() {
   return (
-    <h1>
-      My first Todo App in ReactJS
-    </h1>
+    <FilterProvider>
+      <h1>
+        Hello World!
+      </h1>
+    </FilterProvider>
   )
 }
 
