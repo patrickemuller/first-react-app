@@ -5,11 +5,10 @@ services:
     build: .
     tty: true
     stdin_open: true
-    command: yarn start
+    command: bash -c "npm install --silent && yarn start"
     env_file:
       - .env
     volumes:
       - .:/app
-      - /app/node_modules
     ports:
       - 3000:3000
