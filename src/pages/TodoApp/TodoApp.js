@@ -1,11 +1,10 @@
 import React from 'react'
+import TodoCreator from './partials/TodoApp/TodoCreator'
 
 function TodoApp() {
   return (
     <>
-      <header>
-        TodoCreator
-      </header>
+      <TodoCreator/>
       <main>
         TodoList
       </main>
@@ -15,6 +14,5 @@ function TodoApp() {
     </>
   )
 }
-
 
 export default TodoApp

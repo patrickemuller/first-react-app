@@ -1,11 +1,5 @@
 import * as todosTypes from './types'
 
-// const todo = {
-//   title,
-//   id,
-//   completed
-// }
-
 export function addTodo(title) {
   return {
     type: todosTypes.ADD_TODO,
